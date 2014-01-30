@@ -54,10 +54,10 @@ body {
 
 h1 {
 	width: 100%;
-	padding: 40px 0 20px 0;
+	padding: 40px 0 0 0;
 	text-align: center;
-	font-weight: 700;
-	font-size: 2.4em;
+	font-weight: 900;
+	font-size: 2.8em;
 	line-height: 1em;
 }
 
@@ -70,45 +70,42 @@ a {
 	}
 }
 
+#data {
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 1.8em;
+	line-height: 1.8em;
+	font-weight: 300;
+}
+
 .social_share {
 	min-height: 36px;
-	max-width: 366px;
-	margin: 0 auto;
+	max-width: 432px;
+	margin: 60px auto 0 auto;
+	padding-bottom: 32px;
 
 	a {
 		display: inline-block;
 		height: 32px;
-		width: 120px;
+		width: 140px;
 		margin-bottom: 14px;
 		padding: 12px 0px;
-		background-color: #60b7e2;
+		background-color: #F4594F;
 		border-radius: 2px;
 		text-align: center;
-		font-size: 0.7em;
-		line-height: 0.7em;
-		font-weight: 400;
+		font-size: 0.75em;
+		line-height: 0.75em;
+		font-weight: 300;
 		color: white;
-		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 		text-decoration: none;
+		box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+		margin: 0 1px 12px 1px;
 
 		&:hover {
 			@include transition(background-color, 0.5s);
-			background-color: #3da1d1;
+			background-color: #F7837B;
 		}
-	}
-}
-
-#data {
-	width: 100%;
-	padding: 60px 0;
-	text-align: center;
-	font-size: 1.9em;
-	line-height: 1em;
-	letter-spacing: -1px;
-	font-style: italic;
-	font-weight: 300;
-
-	span.quote {
 	}
 }
 
